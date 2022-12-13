@@ -23,6 +23,7 @@ public class HomeController {
         aulas.add("Aula 02 - Template engines");
         aulas.add("Aula 03 - Arquivos estáticos");
         aulas.add("Aula 04 - Exibindo informações");
+        aulas.add("Aula 05 - Outros");
 
         model.addAttribute("aulas", aulas);
 
