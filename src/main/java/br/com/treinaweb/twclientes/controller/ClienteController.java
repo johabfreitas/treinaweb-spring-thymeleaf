@@ -35,7 +35,7 @@ public class ClienteController {
         ModelAndView modelAndView = new ModelAndView("cliente/detalhar.html");
 
         Cliente cliente = clienteRepository.getOne(id);
-        modelAndView.addObject("cliente", cliente);
+        modelAndView.addObject("clien			e", cliente);
 
         return modelAndView;
     }
